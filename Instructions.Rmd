@@ -1,0 +1,44 @@
+---
+title: 'Basic point plot and histogram with combined plotly and shiny'
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+This lab is preconfigured to include all dependencies (libraries, packages, and datasets) you'll need to complete your work in RStudio. You can practice, run test cases, and work on assignments from your browser.
+
+# Assignment Overview
+In this lab, you are required to use the skills learned from Module 9 to create an R code file which includes interactive plotting using the packages "shiny" app and "plotly". 
+
+#### The basic steps should be included in this lab: 
+1. Please set your working directory to a folder where the assignment dataset lives.
+2. Please create a .R file, not a RMD file. Shiny applications are not supported in static R Markdown documents. You can refer the example file for more details of the steps.
+ - Create a shiny app in R file.
+ - In this shiny app, please create two interactive plot_ly objects. One is a plot_ly() object with selection of "State" and the second plot_ly() with selection of "Year".
+ - For the plot_ly() object with selection of "State", please create a line plot with years. 
+ - For the plot_ly() object with selection of "Year", please create a histogram over all states. 
+ - Please name your file as “Yourname_Interactive plotting with Shiny app and plotly.R” 
+ - Please submit your .R file following submission instructions in the following Peer Review.
+
+### Grading Criteria
+This week, your .R code will be autograded on the following elements:  
+
+1. Your code should match the sequential operations required by the instructor. 
+2. You should have two selectInput() and two plotlyOutput() in the ui file. Please make sure the two input ids are not the same. And the two output ids are not the same either.
+3. You should use plot_ly() to create a line plot in server file. 
+4. You should use plot_ly() to create a histogram in server file. 
+5. Your graphs should include legend, title and x and y labels.
+6. Your code should be run successfully.
+7. You should provide comments for each step. 
+8. You should submit the file with extension of .R file.
+9. Your code should be run successfully.
+10. You should provide comments for each step.
+11. You should submit a .R script file for grading.
+
+
+### How to Submit Your Work for a Grade
+* **If you're working in the In-Browser RStudio:** When you've completed your lab, please download your final .R file by selecting it in the "Files" tab of your RStudio lab, and then selecting the options "More" -> Export -> Download. Then, upload it to the appropriate prompt in the next item, Step 2: Programming Basic point plot with combined plotly and shiny.
+
+* **If you completed your work in a local Desktop verison of RStudio:** Please upload your .R file directly to the appropriate prompt in the next item, Step 2: Programming Basic point plot with combined plotly and shiny.
+
+For both options, you'll receive a final grade and feedback for your work in the next step - Step 2: Programming Basic point plot with combined plotly and shiny.
